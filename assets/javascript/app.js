@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var topics = ['apple', 'pizza', 'chips', 'candy', 'cheeseburgers', 'cherrys', 'strawberry'];
+    var topics = ['apple', 'pizza', 'chips', 'candy', 'cheeseburgers', 'cherrys', 'strawberry', 'soda', 'hot wings'];
 
     function displayImg () {
     
@@ -22,9 +22,9 @@ $(document).ready(function(){
 
                     var image = $("<img>");
 
-                    image.attr("src", response.data[j].images.original_still.url);
-                    image.attr("data-still", response.data[j].images.original_still.url);
-                    image.attr("data-animate", response.data[j].images.original.url);
+                    image.attr("src", response.data[j].images.fixed_height_still.url);
+                    image.attr("data-still", response.data[j].images.fixed_height_still.url);
+                    image.attr("data-animate", response.data[j].images.fixed_height.url);
                     
                     image.addClass('gif'); 
                    
