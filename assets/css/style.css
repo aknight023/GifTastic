@@ -1,0 +1,36 @@
+body {
+	background-image: url("../images/background.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	font-family: 'Shrikhand', cursive;
+    background-attachment: fixed;
+    background-position: center;
+
+ }
+
+.imagesGif {
+	float: left;
+	margin: 15px;
+}
+
+.row {
+	margin: 15px;
+}
+
+.jumbotron {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    font-weight: bold;
+}
+
+label {
+	color: white;
+}
+
+.rating {
+	color: white;
+
+}
